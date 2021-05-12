@@ -1,0 +1,37 @@
+{
+  "name": "rc-makeup",
+  "version": "1.0.0",
+  "description": "Reform-city version 2.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnovikov32/rc-makeup.git"
+  },
+  "author": "Grachya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnovikov32/rc-makeup/issues"
+  },
+  "homepage": "https://github.com/dnovikov32/rc-makeup#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^5.0.0-beta.6",
+    "mini-css-extract-plugin": "^1.3.5",
+    "sass": "^1.32.6",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0"
+    
+  },
+  "dependencies": {
+    "reset-css": "^5.0.1"
+  }
+}
